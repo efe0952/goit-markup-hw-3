@@ -12,13 +12,55 @@
     color:black ;
 }
 
-.navigasyon{
+.site-header_class{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.site-list_class{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.nav-list_class{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-    border-style: none;
-    }
-    
+    gap: 40px;
+}
+
+.item_class{
+    padding: 24px 0;
+}
+
+.link_class{
+    padding: 24px 0;
+    margin-right: 76px;
+
+}
+
+.content-container_class{
+    display: flex;
+}
+   
+
+.container{
+    width: 1158px;
+    max-width: 12000px,
+    margin: auto;
+    padding: 0 15px;
+}
+
+.navigation_class{
+    display: flex;
+    align-items: center;
+    margin-right: 76px;
+}
+
+.address_list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
 
 .bilgi{
     display: flex;
