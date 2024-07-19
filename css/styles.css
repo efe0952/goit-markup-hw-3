@@ -1,76 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.blue{
-    color:blue;
+.blue {
+    color: blue;
 }
 
-.white{
-    color:white;
+.white {
+    color: white;
 }
 
-.black{
-    color:black ;
+.black {
+    color: black;
 }
 
-.site-header_class{
-    border-bottom: 1px solid #e7e9fc;
+.navigation_class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.site-list_class{
-    border-bottom: 1px solid #e7e9fc;
-}
-
-.nav-list_class{
-    list-style-type: none;
+.nav-list_class {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
     padding: 0;
     margin: 0;
+    list-style: none;
+}
+
+.nav-list_class .email-phone {
+    margin-right: auto;
+}
+
+.item_class {
+    margin-left: 20px;
+}
+
+.email-phone a, .email-phone address {
+    text-align: right;
+}
+
+.Content-container_class {
     display: flex;
-    gap: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
-.item_class{
-    padding: 24px 0;
-}
-
-.link_class{
-    padding: 24px 0;
-    margin-right: 76px;
-
-}
-
-.content-container_class{
-    display: flex;
-}
-   
-
-.container{
+.container {
     width: 1158px;
-    max-width: 12000px,
+    max-width: 1200px;
     margin: auto;
     padding: 0 15px;
 }
 
-.navigation_class{
+.navigation_class, .nav-list_class, .item_class {
     display: flex;
     align-items: center;
     margin-right: 76px;
 }
 
-.address_list{
+.bilgi {
     display: flex;
-    list-style-type: none;
-    padding: 0;
-}
-
-.bilgi{
-    display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     position: relative;
     top: 30px;
     list-style: none;
 }
 
-.our-team{
+.our-team {
     text-align: center;
     position: relative;
     top: 90px;
@@ -79,77 +75,55 @@
 .portfolio-container {
     text-align: center;
     position: relative;
-    top: 10px; 
+    top: 10px;
 }
 
-.team-container,.portfolio-container{
+.team-container, .portfolio-container {
     display: flex;
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
-    
 }
 
-h1{
-    font-size: 13px;
-    letter-spacing: 1,3 ;
+h1 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    
 }
 
 footer > h6 {
     border-style: solid;
     width: 1550px;
     height: 50px;
-    background-color:#2E2F42;
-    padding: 100px ;
-    margin: 0px 0px 0px 0px;
+    background-color: #2E2F42;
+    padding: 100px;
+    margin: 0;
     position: relative;
     top: 83px;
-
-
 }
 
 footer > h6 > p {
-    color:white ;
+    color: white;
 }
-
 
 .Sipariş {
-    border-style: solid;
+    border: 1px solid blue;
     width: 1440px;
     height: 100px;
-    padding:100px 50px;
-    background-color: #2E2F42 ;
-}
-
-center>h2{
-    color:white;
-    
+    padding: 100px 50px;
+    background-color: #2E2F42;
 }
 
 button {
-    background-color:blue ;
+    background-color: blue;
+    }
+
+button:hover {
+    background-color: green;
 
 }
 
-button:hover, 
-button:focus,
-hero:hover {
-    background-color:green ;
-    color:blueviolet ;
-}
-
-h2{
-    padding: opx  opx opx 50px
-}
-
-.link{
-    text-decoration:none ;
-    
-}
-
-body{
-    font-family:roboto, sans-serif, ;
-    color:#434455 ;
-    background-color:#FFFFFF ;
-    
+button:focus{
+    background-color: yellow;
 }
